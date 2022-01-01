@@ -26,7 +26,5 @@ export class LikeWidgetComponent implements OnInit{
 
   public like(): void {
     this.liked.emit();
-    console.log('caiu?')
   }
-
 }
